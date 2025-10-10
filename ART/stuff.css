@@ -1,0 +1,93 @@
+body {
+    
+    color:rgb(206, 199, 190);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:1.5em;
+    margin:1.5em;
+    font-size:105%;
+    font-weight:lighter;
+}
+.strong {
+  font-weight:bold;
+ 
+  color:rgb(255, 231, 114); 
+}
+h1, h2, p {
+  font-weight:lighter;
+}
+div {
+  text-indent:50px;
+}
+.nav {
+
+color:rgb(219, 203, 181);
+ margin:10px 200px 2px 100px;
+
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight:lighter;
+ 
+}
+.tiny {
+  font-size:11px;
+
+  color:rgb(144, 144, 144);
+  font-weight:lighter;
+
+}
+a:link{
+   text-decoration:none;
+  color:rgb(255, 166, 209);
+  background-color:rgb(35, 34, 34);
+}
+a:visited {
+  color:rgb(211, 0, 56);
+  font-weight:bold;
+}
+
+a:hover {
+  color:rgb(29, 3, 17);
+  background-color:rgb(255, 0, 0);
+}
+a:active {
+  color:rgb(0, 255, 213);
+}
+.left {
+    float:left;
+    width:100px;
+    margin-right:5px;
+    padding-right:10px;
+    padding-left:7px;
+}
+#grad {
+    background-image:linear-gradient(to bottom, rgb(16, 15, 20), rgb(12, 6, 4));
+    background-repeat:no-repeat;
+    height:2000px;
+}
+.grad2 {
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+    background-repeat:no-repeat;
+    height:2000px;
+    color:rgb(159, 1, 1);
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
