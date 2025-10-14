@@ -12,3 +12,7 @@ hr {
 .notcenter {
     text-align:center;
 }
+.fixed {
+    position:fixed;
+    background-color:white;
+}
