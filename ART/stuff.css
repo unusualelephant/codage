@@ -6,6 +6,7 @@ body {
     margin:1.5em;
     font-size:105%;
     font-weight:lighter;
+    padding:0; 
 }
 .strong {
   font-weight:500px; 
@@ -15,17 +16,41 @@ body {
 h1, h2, p {
   font-weight:lighter;
 }
+h1 {
+  margin-top: 60px;
+  margin-left:10px;
+}
 div {
   text-indent:50px;
 }
 .nav {
 
-color:rgb(219, 203, 181);
+color:rgb(0, 0, 0);
  margin:10px 200px 2px 100px;
 
 font-family:Georgia, 'Times New Roman', Times, serif;
-font-weight:lighter;
+
+
+
+}
+.header {
+  background-color:rgb(219, 185, 163);
+ background-image: url(images/header1.jpg); 
+
+  border: solid rgb(165, 164, 150) 1px;
+  
+  padding:2px 2px 30px 2px; 
  
+}
+.spoof {
+ float:auto;
+  font-size:17px;
+  
+
+  
+}
+.fixed  {
+  background-image:fixed; 
 }
 .tiny {
   font-size:11px;
@@ -37,10 +62,10 @@ font-weight:lighter;
 a:link{
    text-decoration:none;
   color:rgb(255, 166, 209);
-  background-color:rgb(35, 34, 34);
+  
 }
 a:visited {
-  color:rgb(211, 0, 56);
+  color:rgb(92, 1, 25);
   font-weight:bold;
 }
 
@@ -52,7 +77,7 @@ a:active {
   color:rgb(0, 255, 213);
 }
 .left {
-    float:left;
+    float:left; 
     width:100px;
     margin-right:5px;
     padding-right:10px;
