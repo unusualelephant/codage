@@ -1,0 +1,50 @@
+  * {
+        background-color:rgb(242, 243, 233); 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        margin:10px;
+        
+    }
+    a:active {
+        color: rgb(255, 76, 216);
+        text-decoration:none;
+    }
+    a:hover {
+        color:rgb(128, 0, 133); 
+    }
+    a:link {
+        text-decoration:none; 
+    }
+    .left {
+        float:left; 
+        height:100px; 
+        width:100px;
+        
+        padding:10px 12px;
+        padding-right:50px;
+    }
+    .right {
+        float:right;
+        
+    
+        }
+    h1 {
+        font-size:38px;
+    }
+    .size {
+        height:400px;
+        border: solid black 2px;
+        border-radius:10px;
+    }
+.oh {
+    float:left;
+}
+.box1 {
+    border: solid 2px black; 
+   
+}
+.ok {
+    float:left; 
+}
+html {
+    background-color:black;
+}
