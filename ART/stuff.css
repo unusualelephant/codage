@@ -7,6 +7,12 @@ body {
     font-size:105%;
     font-weight:lighter;
     padding:0; 
+    background-color: rgb(41, 40, 40); 
+    
+  
+}
+html {
+  background-color: black; 
 }
 .strong {
   font-weight:500px; 
@@ -39,14 +45,11 @@ font-family:Georgia, 'Times New Roman', Times, serif;
  
  background-image: url(images/header1.jpg);
  background-repeat: no-repeat; 
-
-
   border: solid rgb(165, 164, 150) 1px;
-  margin-right: 105em;
+  margin-right: 100em;
   min-width: 27%;
   max-width: 10%;
-left: 30%;
-
+left: 35%;
   padding:2px 2px 30px 2px; 
  position:fixed;
 
@@ -93,11 +96,7 @@ a:active {
     padding-right:10px;
     padding-left:7px;
 }
-#grad {
-    background-image:linear-gradient(to bottom, rgb(16, 15, 20), rgb(12, 6, 4));
-    background-repeat:no-repeat;
-    height:2000px;
-}
+
 .grad2 {
     background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
     background-repeat:no-repeat;
