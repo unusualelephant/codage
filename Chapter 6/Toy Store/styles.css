@@ -1,0 +1,110 @@
+* {
+    margin:0
+    padding:0
+}
+html {
+    background-color:rgb(255, 196, 196); 
+    font-family:'Courier New', Courier, monospace; 
+    text-align:center; 
+    color:rgb(255, 163, 188); 
+    background-image: url(images/plaid.png);
+   
+    background-size: 
+    background-position:fixed; 
+
+}
+body {
+
+}
+header {
+border: 2px rgb(204, 140, 140) double; 
+border-radius: 10px;
+background-color: rgb(255, 253, 246); 
+margin-left: 15%;
+margin-right: 15%;
+padding-bottom: 5px;
+}
+main {
+text-align:center; 
+background-color: rgb(255, 253, 246); 
+border: 2px double  rgb(204, 140, 140);
+border-radius: 10px;
+margin-left: 15%;
+margin-right: 15%;
+padding: 2px;
+}
+
+section {
+text-align:center; 
+background-color:rgb(255, 253, 246); 
+border: 2px double  rgb(204, 140, 140);
+border-radius: 10px;
+margin-left: 15%;
+margin-right: 15%;
+
+float:left;
+
+}
+.grid {
+  display:flex; 
+  justify-content: flext-start;
+  gap:10px;
+  flex-wrap: wrap;
+    
+
+}
+div {
+    display:grid;
+    text-align:center; 
+background-color:rgb(255, 253, 246); 
+border: 2px double  rgb(204, 140, 140);
+border-radius: 10px;
+margin-left: 50%;
+margin-right: 15%;
+}
+art {
+    width: 500px;
+    text-align:justfy;
+    column-count: 2;
+    column-rule: 2px solid black;
+    column-gap: 25px;
+    
+}
+
+button {
+    color:rgb(255, 254, 245);
+    background-color:rgb(255, 83, 160);
+    border: 1px rgb(255, 215, 39) solid;
+    border-radius: 5px;
+}
+button:hover {
+    background-color:rgb(247, 0, 255);
+    color:rgb(254, 192, 255);
+    font-size:105%;
+}
+.images {
+    height:200px;
+border-radius: 10px;
+}
+.left {
+    float:left;
+    height:100px;
+}
+.right {
+    float:right; 
+}
+a:link {
+    color:rgb(255, 117, 198);
+    text-decoration:none; 
+}
+a:hover {
+    color:yellow;
+    font-size:150%;
+}
+a:active {
+    color:red; 
+    text-decoration:underline;
+}
+a:visited {
+    color:rgb(255, 89, 117); 
+}
