@@ -71,7 +71,7 @@ box-shadow: 0 0 5px 5px rgb(0, 0, 0);
     
     padding-left:30%;
 }
-.underline {
+a:link {
     text-decoration:underline;
     color:orange;
 }
