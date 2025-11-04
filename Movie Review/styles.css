@@ -19,8 +19,10 @@ body {
     border-radius: 10px;
 }
 .fixed {
-    position:fixed;
+    position:relative;
     background-color:white;
+    border: red double 4px;
+   
 }
 .title {
     font-size:275%;
