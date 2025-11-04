@@ -18,12 +18,6 @@ body {
     border: 4px rgb(255, 0, 0) double;
     border-radius: 10px;
 }
-.fixed {
-    position:relative;
-    background-color:white;
-    border: red double 4px;
-   
-}
 .title {
     font-size:275%;
     padding:5px 10px; 
