@@ -1,10 +1,78 @@
 * {
-    margin:0
+    margin:0;
     padding:0
 }
 html {
-    background-color:yellow;
+    background-color:rgb(182, 0, 0);
+    
     font-family:'Courier New', Courier, monospace;
-    line-height:1.5em;
-    color:red; 
+    line-height:2.5em;
+    color:rgb(24, 24, 24); 
+    text-align:center; 
+}
+body {
+    margin-left: 15%;
+    margin-right:15%; 
+}
+.title {
+    font-size:275%;
+    padding:5px 10px; 
+}
+.icon {
+    width:100px;
+    float:left;
+    
+}
+.left {
+    float:left; 
+}
+.poster {
+    width:80%;
+    margin-top:20px;
+    border-radius: 10px;
+    border: white 4px double; 
+}
+.dropdown {
+    float:left;
+    overflow:hidden; 
+}
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none; 
+    background-color:#000000; 
+    color:white;
+    outline: none; 
+    padding: 14px 16px;
+    font-family:inherit;
+    margin:0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(255, 0, 0);
+}
+.dropdown-content {
+    display:block;
+    position:absolute;
+    min-width:160px;
+    z-index: 1;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    float:none; 
+    color:black; 
+    padding: 12px 16px;
+    text-decoration:none; 
+    display:block;
+    text-align:left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fffaaf;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
 }
