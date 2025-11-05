@@ -1,80 +1,122 @@
-body {
-    font-family:sans-serif; 
-    margin-right:30%;
-    margin-left:30%;
-    background-color:white; 
-    border: solid black 2px;
-
-
-}
-    
-
-.float {
-    float:left; 
-    padding-right: 15px;
-    margin:10px;
-  
-    
-}
-h2::first-letter{
-    font-weight:bold;
-    font-size:45px;
-}
-
-h1 {
-   font-weight:bold; 
-   font-size: 2.5em;
-   
-}
-
-main {
-    padding-left:20px;
-    padding-right:20px;
-}
-ul {
-    font-weight:bold;
-    line-height:1.45em;
-}
-a:link {
-    color:orange;
-}
-a:hover {
-    color:rgb(255, 0, 0);
-}
-#silly {
-    text-align:center;
-    font-size:14px;
-}
 html {
-    background-image: url(../images/bats.gif);
+    background-image: url("../images/bats.gif");    
 }
-section {
-    background-color:red; 
-    border: 2px solid black; 
-    background-image: linear-gradient(45deg, rgb(255, 255, 255) , rgb(255, 166, 0), rgb(0, 0, 0));
-    line-height:.8; 
+body  {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid black;
+    box-shadow: 0 9px 18px 9px;
 }
-footer {
-    background-color:red; 
-    border: 2px solid black; 
-    background-image: linear-gradient(45deg, rgb(0, 0, 0) , rgb(255, 166, 0), rgb(255, 255, 255));
-    clear:both;
-}
-div {
-box-shadow: 0 0 5px 5px rgb(0, 0, 0);
-
-}
-.sidebar {
-    float:left;
-}
-.align {
-    
-    padding-left:30%;
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 a:link {
-    text-decoration:underline;
-    color:orange;
+    font-weight: bold;
 }
+a:link, a:visited {
+    color: rgb(255, 157, 0);
+}
+a:hover, a:focus {
+    color: rgb(74, 212, 0);
+}
+li:link, li:visited, li:hover, li:focus {
+    color:black;
+}
+/* Header */
+header {
+    background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    padding: 15px;
+    border-bottom: 2px solid black;  
+}
+header img {
+    float: left;
+    padding-right: 15px;  
+}
+header h2 {
+    font-size: 230%;
+}
+header h3 {
+    font-size: 125%;
+}
+/*navigation Bar*/
+nav {
+    text-align:center;
+}
+nav p {
+    background-color:black;
+}
+/* Sidebar */
+aside {
+    float: left;
+    width: 160px;
+    padding: 20px 0;
+}
+aside ul {
+    line-height: 1.5;
+    list-style-type: none;
+    padding:10%;
+    text-decoration:none;
+    display: block; 
+}
+li a {
+    background-color:rgb(255, 157, 0);
+    border: 2px black;
+    width: 100px;
+    border: 2px solid blue; 
+    margin: .5em;
+    padding: .5em;
+    float:left;
+    text-decoration:none;
+}
+/* Section */
+section {
+    width: 580px;
+    float: right;
+    padding: 20px 40px 20px 20px;    
+}
+section h1 {
+    font-size: 140%;
+    margin-bottom: .5em;
+}
+section h1:first-letter {
+    font-size: 240%;
+}
+section h2 {
+    font-size: 125%;
+    margin: .8em 0 .5em 0;
+}
+section h3 {
+    font-size: 110%;
+    margin: .8em 0 .5em 0;
+}
+section p {
+    margin-bottom: .5em;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    border-top: 2px solid black;
+    padding: 15px;
+    background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+}
+footer p {
+    font-size: 90%;
+    text-align: center;
+}
+
+
+
 /* Penelope Schrader */
 
 
