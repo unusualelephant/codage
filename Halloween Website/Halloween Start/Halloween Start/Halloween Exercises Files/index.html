@@ -3,11 +3,74 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1">
     <title>Halloween Store</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <!--<link rel="stylesheet" href="styles/normalize.css">-->
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <style>
+  .navbar {
+  overflow: hidden;
+  background-color: #282828;
+  width:100%;
+  padding:2px 10px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 0, 0);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #353535;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+}
+
+.dropdown-content a:hover {
+  background-color: #6b6b6b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 </style>
 
 <body>
@@ -16,23 +79,39 @@
     <img src="images/pumpkin.gif" alt="Pumpkin" width="85">
     <h2>The Halloween Store</h2>
     <h3>For the little Goblin in all of us!</h3>
-  </header>
-        <nav>
-            <p><a href="">Home</a></p>
-            <p><a href="">Product List</a></p>
-            <p><a href="">Personal</a></p>
-            <p><a href="">Decorating Ideas</a></p>
-            <p><a href="">Join Email</a></p>
-        </nav>
   <main>
+      <nav>
+          <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products/effects.html">Product List</a>
+            <a href="">Personal</a>
+            <div class="dropdown">
+              <button class="dropbtn">Decorating Ideas 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Outdoor</a>
+                <a href="#">Indoor</a>
+                <a href="#">Table</a>
+                <a href="#">Treats</a>
+              </div>
+            </div> 
+         <a href="">Join Email</a>
+      </div>
+    </nav>
+  </header>
+  <div>
     <aside>
-        <ul>
+       <ul>
             <li><a href="products/props.html">Props</a></li>
             <li><a href="products/costumes.html">Costumes</a></li>
             <li><a href="products/special.html">Special FX</a></li>
             <li><a href="products/masks.html">Masks</a></li>
         </ul>
+    
+
     </aside>
+    </div>
     <section>
         <h1>Welcome to my site.<br>Please come in and stay awhile.</h1>
         <p>I started this web site because Halloween has always been my favorite holiday.
